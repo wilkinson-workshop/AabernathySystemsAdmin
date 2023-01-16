@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Takes an archive snapshot of the server's
+# files and assests.
+
+if [[ $# < 1 || $# > 1 ]]; then
+    echo "error: snapshot expects 1 argument. got $#"
+    exit 1
+fi
+
+set -eu
+tar -zcvf /home/minecraftd/archive/server-$(date +%U%y).tar /home/minecraftd/server/$1

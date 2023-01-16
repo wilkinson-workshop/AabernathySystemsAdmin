@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Initializes the server. This serves as a proxy
+# so as to allow for easier edits/fixes. This
+# script in particular is utilized by that
+# `minecraft.service` file which is symlinked
+# to systemd services directory.
+
+USR_ROOT=/home/minecraftd
+APP_ROOT=$USR_ROOT/server/prod
+BIN_ROOT=$USR_ROOT/server/bin
+
+export MCSERVER_RAM_INI=4096M
+export MCSERVER_RAM_MAX=8192M
+
+cd $APP_ROOT && $BIN_ROOT/mcserver spigot-1.19.2
