@@ -9,4 +9,4 @@ if [[ $# < 1 || $# > 1 ]]; then
 fi
 
 set -eu
-tar -zcvf /home/minecraftd/archive/server-$(date +%U%y).tar /home/minecraftd/server/$1
+tar -zcvf /home/minecraftd/archive/server-$1-$(date +%U%y).tar /home/minecraftd/server/$1
