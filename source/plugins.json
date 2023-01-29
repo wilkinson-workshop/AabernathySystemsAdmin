@@ -1,0 +1,28 @@
+{
+    "BetterSleeping": {
+        "site": "https://www.spigotmc.org/resources/bettersleeping.60837/",
+        "source": "https://github.com/Nuytemans-Dieter/BetterSleeping"
+    },
+    "BlueMap": {
+        "site": "https://www.spigotmc.org/resources/bluemap.83557/",
+        "source": "https://github.com/BlueMap-Minecraft/BlueMap"
+    },
+    "Discord-Linker": {
+        "site": "https://www.spigotmc.org/resources/discord-linker.98749/",
+        "source": "https://github.com/MC-Linker/Discord-Linker"
+    },
+    "Dynmap": {
+        "site": "https://www.spigotmc.org/resources/dynmap%C2%AE.274/"
+    },
+    "RampenDrills": {
+        "site": "https://www.spigotmc.org/resources/rampendrills.23086/",
+        "source": "https://github.com/webbukkit/dynmap"
+    },
+    "SilkSpawners": {
+        "site": "https://www.spigotmc.org/resources/silkspawners-%E2%98%85-ready-to-rock-1-8-1-18-2-supported-%E2%98%85.7811/",
+        "source": "https://github.com/timbru31/SilkSpawners"
+    },
+    "Worlds": {
+        "site": "https://www.spigotmc.org/resources/worlds-1-15-2-1-19-3.106196/"
+    }
+}
