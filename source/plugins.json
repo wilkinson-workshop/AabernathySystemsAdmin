@@ -12,11 +12,15 @@
         "source": "https://github.com/MC-Linker/Discord-Linker"
     },
     "Dynmap": {
-        "site": "https://www.spigotmc.org/resources/dynmap%C2%AE.274/"
+        "site": "https://www.spigotmc.org/resources/dynmap%C2%AE.274/",
+        "source": "https://github.com/webbukkit/dynmap"
+    },
+    "GSit": {
+        "site": "https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-13-x-1-19-x.62325/",
+        "source": "https://github.com/Gecolay/GSit"
     },
     "RampenDrills": {
-        "site": "https://www.spigotmc.org/resources/rampendrills.23086/",
-        "source": "https://github.com/webbukkit/dynmap"
+        "site": "https://www.spigotmc.org/resources/rampendrills.23086/"
     },
     "SilkSpawners": {
         "site": "https://www.spigotmc.org/resources/silkspawners-%E2%98%85-ready-to-rock-1-8-1-18-2-supported-%E2%98%85.7811/",
